@@ -3,8 +3,6 @@ from telegram.ext import Application, MessageHandler, filters, CommandHandler, C
 from telegram import ReplyKeyboardMarkup, Bot, ReplyKeyboardRemove
 from config import BOT_TOKEN
 import json
-import aiohttp
-from flask import jsonify
 
 
 logging.basicConfig(
